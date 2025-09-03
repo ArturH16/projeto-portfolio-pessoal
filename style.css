@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+}
+
+strong {
+    color: #13bd76;
+}
 
 header h1 {
     text-align: center;
@@ -11,10 +24,14 @@ header p {
     font-size: 1.7em;
 }
 
-
-main {
-    display: inline-block;
-    background-color: #3516bdf3;
-    color: rgb(255, 255, 255);
+#imagem1 {
     text-align: center;
 }
+
+main {
+    text-align: center;
+}
+
+
+
+
