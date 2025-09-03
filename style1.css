@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+      background-image: linear-gradient(to bottom, rgb(27 165 120), rgb(30 101 101));
+
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(28 189 12 / 79%), rgb(55 89 55 / 29%))
+}
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+nav {
+      color: rgba(59, 172, 59, 0.29);
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(26, 190, 81);
+}
+
+main {
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: white;
+}
+
